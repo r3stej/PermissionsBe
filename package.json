@@ -20,6 +20,9 @@
     "@levimc-lse/scaffold": "^1.0.0",
     "nodemon": "^3.1.11",
     "typescript": "^5.9.3"
+  },
+   "dependencies": {
+    "yaml": "^2.8.2"
   }
 }
 
