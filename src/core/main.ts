@@ -1,1 +1,3 @@
-console.log('Plugin has been loaded properly');
+import { ServiceLoader } from './services/ServiceLoader';
+
+ServiceLoader.loadServices();
