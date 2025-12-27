@@ -1,6 +1,8 @@
 import config from './Config';
 import logHandler from './LogHandler';
 
+import { Initializable } from './interfaces/Initializable';
+
 export abstract class ServiceLoader {
 	private static services: Initializable[] = [config, logHandler];
 

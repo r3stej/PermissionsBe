@@ -12,7 +12,3 @@ declare const logger: {
 	fatal(...data: unknown[]): void;
 	setTitle(title: string): void;
 };
-
-declare interface Initializable {
-	initialize(): void;
-}
