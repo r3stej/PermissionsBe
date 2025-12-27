@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+
 import YAML from 'yaml';
+
+import { Initializable } from './interfaces/Initializable';
 
 class Config implements Initializable {
 	private readonly configPath: string = path.join(process.cwd(), 'plugins', 'permissionsbe', 'config.yaml');

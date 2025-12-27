@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
+
 import config from './Config';
+import { Initializable } from './interfaces/Initializable';
 
 class LogHandler implements Initializable {
 	public initialize(): void {
