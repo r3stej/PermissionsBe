@@ -1,29 +1,28 @@
 {
-  "name": "permissionsbe",
-  "version": "0.1.0",
-  "main": "dist/core/main.js",
-  "scripts": {
-    "dev:compile": "tsc",
-    "dev:pack": "npx lses pack",
-    "dev:manifest": "npx lses manifest",
-    "dev:deploy-path": "lses deploy-path <your path>",
-    "dev:deploy-debug": "npx lses deploy-debug <your debugger name>",
-    "dev:debug": "npx lses debug <your-path> <your debugger name>",
-    "dev:full": "npm run dev:compile && npm run dev:pack && npm run dev:deploy-debug",
-    "dev:watch": "nodemon --watch src --ext ts,json --exec \"npm run dev:full\""
-  },
-  "keywords": [],
-  "author": "r3stej",
-  "license": "MIT",
-  "description": "",
-  "devDependencies": {
-    "@levimc-lse/scaffold": "^1.0.0",
-    "nodemon": "^3.1.11",
-    "typescript": "^5.9.3"
-  },
-   "dependencies": {
-    "mongoose": "^9.0.2",
-    "yaml": "^2.8.2"
-  }
+	"name": "permissionsbe",
+	"version": "0.2.0",
+	"main": "dist/core/main.js",
+	"scripts": {
+		"dev:compile": "tsc",
+		"dev:pack": "npx lses pack",
+		"dev:manifest": "npx lses manifest",
+		"dev:deploy-path": "lses deploy-path <your path>",
+		"dev:deploy-debug": "npx lses deploy-debug <your debugger name>",
+		"dev:debug": "npx lses debug <your-path> <your debugger name>",
+		"dev:full": "npm run dev:compile && npm run dev:pack && npm run dev:deploy-debug",
+		"dev:watch": "nodemon --watch src --ext ts,json --exec \"npm run dev:full\""
+	},
+	"keywords": [],
+	"author": "r3stej",
+	"license": "MIT",
+	"description": "",
+	"devDependencies": {
+		"@levimc-lse/scaffold": "^1.0.0",
+		"nodemon": "^3.1.11",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"mongoose": "^9.0.2",
+		"yaml": "^2.8.2"
+	}
 }
-
