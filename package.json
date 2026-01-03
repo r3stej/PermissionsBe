@@ -22,6 +22,7 @@
     "typescript": "^5.9.3"
   },
    "dependencies": {
+    "mongoose": "^9.0.2",
     "yaml": "^2.8.2"
   }
 }
