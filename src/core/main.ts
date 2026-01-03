@@ -1,3 +1,7 @@
 import { ServiceLoader } from './services/ServiceLoader';
 
-ServiceLoader.loadServices();
+async function main() {
+	await ServiceLoader.loadServices();
+}
+
+main();

@@ -1,3 +1,3 @@
 export interface Initializable {
-	initialize(): void;
+	initialize(): void | Promise<void>;
 }
